@@ -1,0 +1,43 @@
+.navbar {
+    color: white;
+    background-color: black;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.check {
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.check-link {
+    text-decoration: none;
+    color: white;
+}
+
+.check-link:hover {
+    transition: .5s;
+    color:tan;
+}
+
+.calendar {
+    grid-column: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.calendar-link:hover {
+    transition: .5s;
+    color:tan;
+}
